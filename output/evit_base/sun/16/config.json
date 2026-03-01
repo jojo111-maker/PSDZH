@@ -1,0 +1,21 @@
+{
+    "backbone": "evit_base",
+    "batch_size": 128,
+    "data_dir": "../_datasets_zs",
+    "dataset": "sun",
+    "device": "cuda:0",
+    "lambda1": 1.0,
+    "lambda2": 1.0,
+    "lambda3": 1.0,
+    "lr": 1e-05,
+    "multi_thread": true,
+    "n_bits": 16,
+    "n_classes": 717,
+    "n_epochs": 100,
+    "n_workers": 4,
+    "optimizer": "adam",
+    "samples_per_class": null,
+    "save_dir": "./output/evit_base/sun/16",
+    "topk": 1000,
+    "wd": 0.0001
+}
